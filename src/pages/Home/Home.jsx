@@ -7,6 +7,7 @@ import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TitleCards from '../../components/TitleCards/TitleCards'
 
+
 const Home = () => {
   return (
     <div className='home'>
@@ -23,8 +24,14 @@ const Home = () => {
           <TitleCards/>
         </div>
       </div>
+      <div className="more-cards">
+        <TitleCards/>
+        <TitleCards/>
+        <TitleCards/>
+        <TitleCards/>
+      </div>
     </div>
   )
 }
 
-export default Home
+export default Home;
